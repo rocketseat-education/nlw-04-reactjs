@@ -112,7 +112,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
     }}>
       {children}
 
-      { isLevelUpModalOpen && <LevelUpModal level={level} /> }
+      { isLevelUpModalOpen && <LevelUpModal/> }
     </ChallengesContext.Provider>
   )
 }
